@@ -1,0 +1,15 @@
+{
+  "routes": [
+    {
+      "src": "/",
+      "dest": "/api/news.js"
+    },
+    {
+        "src": "/news",
+        "methods": [
+            "GET"
+        ],
+        "dest": "/api/news.js"
+    }
+  ]
+}
