@@ -1,15 +1,18 @@
 {
   "routes": [
     {
-      "src": "/",
-      "dest": "/api/news.js"
-    },
-    {
         "src": "/news",
         "methods": [
             "GET"
         ],
         "dest": "/api/news.js"
+    },
+    {
+        "src": "/videos",
+        "methods": [
+            "GET"
+        ],
+        "dest": "/api/videos.js"
     }
   ]
 }
